@@ -4,7 +4,6 @@ import './Sidebar.css'
 
 const Sidebar = () => {
   return (
-<div className="d-flex flex-column text-white p-3 vh-100" style={{ width: '300px', position: 'fixed', top: '0', left: '0', background: '#58A4B0' }}>
     <div className="d-flex flex-column text-white p-3 vh-100" style={{ width: '300px', position: 'fixed', top: '0', left: '0', background: '#58A4B0' }}>
       {/* Logo and Title */}
       <div className="text-center mb-5">
