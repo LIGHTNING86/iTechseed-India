@@ -25,27 +25,25 @@ const AdminPanel = () => {
         <div id="user_management" onClick={() => navigate("/Usermanagement")}>
           User Management
           <Link to="/Usermanagement">
-                      <FiLink size={20} />
                     </Link>
-          <img src="user_management.png" alt="Usermanagement" />
+          <img src="user_management.svg" alt="Usermanagement" style={{ width: '90%', height: '90%' }}/>
         </div>
 
         <div id="inventory_management" onClick={() => navigate("/InventoryManagement")}>
           Inventory Management
           <Link to="/InventoryManagement">
-                      <FiLink size={20} />
                     </Link>
-          <img src="inventory.png" alt="Inventory Management" />
+          <img src="inventory_management.svg" alt="Inventory Management" style={{ width: '90%', height: '90%' }}/>
         </div>
 
         <div id="client_management" onClick={() => navigate("/ClientSupplierManagement")}>
           Client & Supplier Master Management
-          <img src="client_supply.png" alt="Client & Supplier Management" />
+          <img src="client_supplier_management.svg" alt="Client & Supplier Management" style={{ width: '90%', height: '90%' }}/>
         </div>
 
         <div id="sap_data" onClick={() => navigate("/SapDataImport")}>
           SAP Data Import
-          <img src="sap.png" alt="SAP Data Import" />
+          <img src="sap_data_import.svg" alt="SAP Data Import" style={{ width: '90%', height: '90%' }}/>
         </div>
       </div>
     </div>

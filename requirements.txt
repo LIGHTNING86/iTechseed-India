@@ -12,6 +12,10 @@ npm install react-router-dom
 npm install react-chartjs-2@^4.0.0 chart.js@^3.0.0
 npm list react-chartjs-2 chart.js
 npm install file-saver xlsx
+npm install jspdf
+npm install lucide-react
+npm install react-pdf
+npm install tailwindcss
 
 //run
 npm start

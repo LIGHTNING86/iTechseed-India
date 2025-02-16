@@ -2,19 +2,20 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Usermanagement from "./pages/AdminPanel/Usermanagement"; // Ensure correct import
-import InventoryManagement from "./pages/AdminPanel/InventoryManagement";
-import ClientSupplierManagement from "./pages/AdminPanel/ClientSupplierManagement";
-import SAPDataImport from "./pages/AdminPanel/SapDataImport";
+import Usermanagement from "./pages/adminpanel/Usermanagement"; // Ensure correct import
+import InventoryManagement from "./pages/adminpanel/InventoryManagement";
+import ClientSupplierManagement from "./pages/adminpanel/ClientSupplierManagement";
+import SAPDataImport from "./pages/adminpanel/SapDataImport";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ForgotPassword from './pages/ForgotPassword/ForgotPassword';
 import Home from './components/Home';
 import Registration from "./pages/Registration/Register";
 import Dashboard from './components/Dashboard';
-import LoginPage from './pages/LoginPage/Login';
-import OverviewPage from './pages/Overview/Overview';
-import AdminPanel from './pages/AdminPanel/AdminPanel';
+import LoginPage from './pages/loginPage/Login';
+import OverviewPage from './pages/overview/Overview';
+import AdminPanel from './pages/adminpanel/AdminPanel';
+import TransactionChallan from './pages/challanPages/transactionChallan';
 // import SapDataImport from './pages/AdminPanel/SapDataImport';
 const Sidebar = () => {
   return (
@@ -70,6 +71,7 @@ function App() {
               <Route path="/InventoryManagement" element={<InventoryManagement />} />
               <Route path="/ClientSupplierManagement" element={<ClientSupplierManagement />} />
               <Route path="/SAPDataImport" element={<SAPDataImport />} />
+              <Route path="/transactionChallan" element={<TransactionChallan />} />
               {/* <Route path="/SapDataImport" element={<SapDataImport/>} /> */}
               {/* Example Admin Routes */}
               {/* <Route path="/admin" element={<div>Admin Panel</div>} />
