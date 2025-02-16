@@ -16,9 +16,6 @@ import LoginPage from './pages/loginPage/Login';
 import OverviewPage from './pages/overview/Overview';
 import AdminPanel from './pages/adminpanel/AdminPanel';
 import TransactionChallan from './pages/challanPages/transactionChallan';
-import LoginPage from './pages/loginPage/Login';
-import OverviewPage from './pages/overview/Overview';
-import AdminPanel from './pages/adminpanel/AdminPanel';
 import DeviceManagement from './pages/DeviceManagement/DeviceManagement';
 // import SapDataImport from './pages/AdminPanel/SapDataImport';
 const Sidebar = () => {
