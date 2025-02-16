@@ -50,12 +50,3 @@
 #sap_data:hover {
   transform: scale(1.05); /* ✅ Add hover effect */
 }
-
-#user_management img,
-#inventory_management img,
-#client_management img,
-#sap_data img {
-  width: 50%;
-  height: auto;
-  margin-top: 10px;
-}

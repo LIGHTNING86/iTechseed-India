@@ -28,7 +28,7 @@ const TransactionChallan = () => {
       {/* Main Content */}
       <div id='right_content' className="w-3/4 p-6 bg-white">
         <Card className="p-6 shadow-lg border rounded-md relative">
-          <div className="flex justify-between items-center mb-6 border-b pb-4">
+          <div className="d-flex justify-content-between align-items-center mb-3 mx-10">
             <h2 className="font-bold" style={{ fontSize: '30px' }}>Transaction Challan</h2>
             <Download onClick={handleDownloadPDF} style={{ cursor: "pointer" }} className="w-6 h-6" />
           </div>

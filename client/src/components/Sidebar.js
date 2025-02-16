@@ -39,6 +39,11 @@ const Sidebar = () => {
             <img src="/contract.svg" alt="Challan Icon" className="me-2" />CHALLAN GENERATION
           </Link>
         </li>
+        <li className="nav-item mb-3">
+          <Link to="/device" className="nav-link text-white" style={{ fontWeight: "200", fontSize: "15px" }}>
+            <img src="/contract.svg" className="me-2" />DEVICE MANAGEMENT
+          </Link>
+        </li>
       </ul>
 
       {/* Settings Link - Push to Bottom */}
