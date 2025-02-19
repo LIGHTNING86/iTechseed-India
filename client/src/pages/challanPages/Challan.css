@@ -24,3 +24,6 @@
     padding: 10px;
     font-weight: 300;
   }
+ input {
+    height: 30px;
+ }

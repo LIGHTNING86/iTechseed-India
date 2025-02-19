@@ -17,6 +17,7 @@ import OverviewPage from './pages/overview/Overview';
 import AdminPanel from './pages/adminpanel/AdminPanel';
 import TransactionChallan from './pages/challanPages/transactionChallan';
 import DeviceManagement from './pages/DeviceManagement/DeviceManagement';
+import ChallanGeneration from './pages/challanPages/challanGeneration';
 // import SapDataImport from './pages/AdminPanel/SapDataImport';
 const Sidebar = () => {
   return (
@@ -36,7 +37,7 @@ const Sidebar = () => {
           <Link to="/defects" className="nav-link text-white">Defect Detection</Link>
         </li>
         <li className="nav-item mb-3">
-          <Link to="/challans" className="nav-link text-white">Challan Generation</Link>
+          <Link to="/challan" className="nav-link text-white">Challan Generation</Link>
         </li>
         <li className="nav-item mb-3">
           <Link to="/device" className="nav-link text-white">Device Management</Link>
@@ -75,7 +76,8 @@ function App() {
               <Route path="/InventoryManagement" element={<InventoryManagement />} />
               <Route path="/ClientSupplierManagement" element={<ClientSupplierManagement />} />
               <Route path="/SAPDataImport" element={<SAPDataImport />} />
-              <Route path="/transactionChallan" element={<TransactionChallan />} />
+              <Route path="/TransactionChallan" element={<TransactionChallan />} />
+              <Route path="/ChallanGeneration" element={<ChallanGeneration />} />
               {/* <Route path="/SapDataImport" element={<SapDataImport/>} /> */}
               {/* Example Admin Routes */}
               {/* <Route path="/admin" element={<div>Admin Panel</div>} />

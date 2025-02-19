@@ -35,7 +35,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <li className="nav-item mb-3">
-          <Link to="/challans" className="nav-link text-white" style={{ fontWeight: "200", fontSize: "15px" }}>
+          <Link to="/ChallanGeneration" className="nav-link text-white" style={{ fontWeight: "200", fontSize: "15px" }}>
             <img src="/contract.svg" alt="Challan Icon" className="me-2" />CHALLAN GENERATION
           </Link>
         </li>
